@@ -5,6 +5,7 @@ const Selection = ({ nextBackground}) => {
     const [background, setBackground] = useState("")
   return (
     <div 
+    data-testid={nextBackground}
     className='fix-box'
     style={{backgroundColor: background,
             width: "200px",
